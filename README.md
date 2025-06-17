@@ -1,106 +1,36 @@
-# Employee-Management-System-Full-Stack-MERN
-This project is a comprehensive Employee Management System designed to streamline administrative tasks for organizations. It provides a robust backend API with features for employee onboarding, attendance tracking, leave management, payroll processing, and role-based access control.
-
-You have a merge conflict in your `.gitignore` file. To resolve it:
-
----
-
-## 🔧 Step 1: Open `.gitignore` and edit it
-
-In your code editor, open the `.gitignore` file. You’ll see conflict markers like this:
-
-```gitignore
-<<<<<<< HEAD
-Backend/node_modules
-Frontend/node_modules
-Backend/dist
-Backend/.env
-venv/
-Frontend/.env
-node_modules/
-=======
-# Logs
-logs
-*.log
-… (other ignore patterns)
->>>>>>> origin/main
-```
-
-Decide what entries to keep—either your version, the remote version, or merge them both. For example, combining both sets:
-
-```gitignore
-# Project dependencies
-Backend/node_modules
-Frontend/node_modules
-node_modules/
-
-# Build outputs and env files
-Backend/dist
-Backend/.env
-Frontend/.env
-venv/
-
-# Log files
-logs/
-*.log
-… (rest of patterns)
-```
-
-Save the file after removing the `<<<<<<<`, `=======`, and `>>>>>>>` lines.
-
----
-
-## ✅ Step 2: Stage the resolved file
-
-```bash
-git add .gitignore
-```
-
----
-
-## 📝 Step 3: Commit the merge resolution
-
-```bash
-git commit -m "Resolve merge conflict in .gitignore"
-```
-
-This finalizes the merge process, as outlined in the GitHub docs ([stackoverflow.com][1], [docs.github.com][2], [app.studyraid.com][3]).
-
----
-
-## 🚀 Step 4: Push your changes to GitHub
-
-```bash
-git push -u origin main
-```
-
-Your local and remote branches are now synchronized.
-
----
-
-Let me know if you'd like help verifying the final `.gitignore` or navigating other merge issues!
-
-[1]: https://stackoverflow.com/questions/12160676/merge-conflict-in-gitignore?utm_source=chatgpt.com "Merge conflict in .gitignore - Stack Overflow"
-[2]: https://docs.github.com/articles/resolving-a-merge-conflict-using-the-command-line?utm_source=chatgpt.com "Resolving a merge conflict using the command line - GitHub Docs"
-[3]: https://app.studyraid.com/en/read/15176/525734/merging-gitignore-changes-without-conflicts?utm_source=chatgpt.com "Merging .gitignore changes without conflicts - StudyRaid"
-
-
-Here's a detailed `README.md` template for your GitHub project **Employee Management System - Full Stack MERN**. You can paste this into your repo's `README.md` file:
-
----
-
 # Employee Management System
 
 A full-stack MERN (MySQL, Express.js, React, Node.js) application to streamline employee administration including attendance, leave, and payroll management.
 
 ---
+# Directories
+
+Employee-Management-System-Full-Stack-MERN/
+├── frontend/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+├── backend/
+│   ├── .env
+│   ├── config.py
+│   ├── app.py
+│   ├── models/
+│   ├── routes/
+│   └── ...
+├── database/
+│   └── schema.sql
+├── venv/
+├── README.md
+└── ...
 
 ## 🔧 Tech Stack
 
 * **Frontend:** React.js, TypeScript, Tailwind CSS, Vite
 * **Backend:** Node.js, Express.js, TypeScript
 * **Database:** MySQL
-* **Auth:** JWT (JSON Web Tokens)
+* **Auth:** JWT (JSON Web Tokens), BCRYPT
 
 ---
 
@@ -216,3 +146,91 @@ For queries or support:
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
+
+# Employee-Management-System-Full-Stack-MERN
+This project is a comprehensive Employee Management System designed to streamline administrative tasks for organizations. It provides a robust backend API with features for employee onboarding, attendance tracking, leave management, payroll processing, and role-based access control.
+
+Things I used here
+---
+
+## 🔧 Step 1: Open `.gitignore` and edit it
+
+In your code editor, open the `.gitignore` file. You’ll see conflict markers like this:
+
+```gitignore
+<<<<<<< HEAD
+Backend/node_modules
+Frontend/node_modules
+Backend/dist
+Backend/.env
+venv/
+Frontend/.env
+node_modules/
+=======
+# Logs
+logs
+*.log
+… (other ignore patterns)
+>>>>>>> origin/main
+```
+
+Decide what entries to keep—either your version, the remote version, or merge them both. For example, combining both sets:
+
+```gitignore
+# Project dependencies
+Backend/node_modules
+Frontend/node_modules
+node_modules/
+
+# Build outputs and env files
+Backend/dist
+Backend/.env
+Frontend/.env
+venv/
+
+# Log files
+logs/
+*.log
+… (rest of patterns)
+```
+
+Save the file after removing the `<<<<<<<`, `=======`, and `>>>>>>>` lines.
+
+---
+
+## ✅ Step 2: Stage the resolved file
+
+```bash
+git add .gitignore
+```
+
+---
+
+## 📝 Step 3: Commit the merge resolution
+
+```bash
+git commit -m "Resolve merge conflict in .gitignore"
+```
+
+This finalizes the merge process, as outlined in the GitHub docs ([stackoverflow.com][1], [docs.github.com][2], [app.studyraid.com][3]).
+
+---
+
+## 🚀 Step 4: Push your changes to GitHub
+
+```bash
+git push -u origin main
+```
+
+Your local and remote branches are now synchronized.
+
+---
+
+Let me know if you'd like help verifying the final `.gitignore` or navigating other merge issues!
+
+[1]: https://stackoverflow.com/questions/12160676/merge-conflict-in-gitignore?utm_source=chatgpt.com "Merge conflict in .gitignore - Stack Overflow"
+[2]: https://docs.github.com/articles/resolving-a-merge-conflict-using-the-command-line?utm_source=chatgpt.com "Resolving a merge conflict using the command line - GitHub Docs"
+[3]: https://app.studyraid.com/en/read/15176/525734/merging-gitignore-changes-without-conflicts?utm_source=chatgpt.com "Merging .gitignore changes without conflicts - StudyRaid"
+
+---
+
