@@ -3,6 +3,7 @@
 A full-stack MERN (MySQL, Express.js, React, Node.js) application to streamline employee administration including attendance, leave, and payroll management.
 
 ---
+```text
 # Directories
 
 Employee-Management-System-Full-Stack-MERN/
@@ -24,7 +25,7 @@ Employee-Management-System-Full-Stack-MERN/
 ├── venv/
 ├── README.md
 └── ...
-
+```
 ## 🔧 Tech Stack
 
 * **Frontend:** React.js, TypeScript, Tailwind CSS, Vite
