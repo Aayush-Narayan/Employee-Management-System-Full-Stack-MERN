@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                       // Best for modern environments
+    "module": "ESNext",                       // Emits native ES Modules
+    "moduleResolution": "bundler",            // Optimal for modern bundlers
+    "outDir": "./dist",                       // Output directory
+    "rootDir": "./src",                       // Source root
+    "strict": true,                           // Enables all strict type checks
+    "esModuleInterop": true,                  // Allow CommonJS modules to be imported
+    "skipLibCheck": true,                     // Speeds up builds
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,                // Allows importing JSON
+    "noEmitOnError": true,                    // Prevent output if there's a type error
+    "isolatedModules": true,                  // Required for tools like Vite
+    "declaration": true,                      // Generate `.d.ts` files for libraries
+    "types": ["node"],
+    "typeRoots": ["./src/types", "./node_modules/@types"]
+    },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "mysql2": "^3.14.1",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "tailwind-scrollbar": "^4.0.2"
+  },
+  "scripts": {
+    "start:backend-build": "tsc -w -p Backend/tsconfig.json",
+    "start:backend-server": "nodemon Backend/dist/server.js",
+    "start:frontend": "npm --prefix frontend run dev",
+    "start:all": "concurrently \"npm run start:backend-build\" \"npm run start:backend-server\" \"npm run start:frontend\""
+  }
+}
